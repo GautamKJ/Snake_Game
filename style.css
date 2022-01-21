@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: blue;
+}
+.container{
+    background-image: url(background/bg.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+}
+
+.box{
+    background-color: rgb(243, 225, 225);
+    height: 98vh;
+    border: solid black 2px ;
+    width: 40vw;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head{
+    background-color: purple;
+}
+.snake{
+    background-color: rgb(182, 112, 182);
+}
+.food{
+    background-color: yellow;
+}
